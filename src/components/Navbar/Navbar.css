@@ -1,0 +1,154 @@
+.container{
+    display: flex;
+    max-width: 100%;
+    background-color:white;
+    text-align: center;
+    height: 64px;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+
+
+}
+.menu{
+    display: none;
+}
+.child1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+.logoImg{
+    width: 127px;
+    height: 32px;
+    margin-right: 20px;
+}
+.exporeMenu{
+    -webkit-box-align: center;
+    margin: auto 0px;
+    margin-right: 20px;
+    background: none rgb(0, 86, 210);
+    border: none;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: default;
+    padding: 0px;
+    position: relative;
+    color: white;
+    height: 36px;
+    width: 92px;
+}
+.exploreMenutext{
+    font-size: 14px;
+    padding-right: 4px;
+}
+
+svg{
+    height: 9px;
+    width: 9px;
+}
+.form{
+    display: flex;
+    width: 372.5px;
+    height: 40px;
+}
+.searchBox{
+    font-family: Source Sans Pro,Arial,sans-serif;
+    color: #636363;
+    font-size: 14px;
+    line-height: 20px;
+    width: 80%;
+}
+.searchButton{
+    padding: 10px;
+    border-radius: 0 2px 2px 0;
+    background-color: #0056d2;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #636363;
+    border-left: 0;
+}
+
+.child2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    font-size: 14px;
+    font-family: Source Sans Pro,Arial,sans-serif;
+    padding: 0px 12px;
+}
+.forEnterprise{
+    display: flex;
+    height: 44px;
+    width: 136.23px;
+    text-align: center;
+    align-items: center;
+    padding: 12px 18px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 3px 12px;
+}
+#logIn{
+    width: 60px;
+    height: 24px;
+    padding :3px 12px;
+    
+}
+#joinForFree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0056d2;
+    border-radius: 2px;
+    color: white;
+    width: 107.34px;
+    height: 36px;
+    /* padding: 15px; */
+}
+@media screen and (max-width:1000px){
+    .menu{
+        display: inline;
+        position: relative;
+        top: 18px;
+        left: 5px;
+        width: 26px;
+        height: 26px;
+    }
+    .child1{
+        justify-content: center;
+    }
+    .exporeMenu{
+        display: none;
+    }
+    .searchBox{
+        display: none;
+    }
+    .searchButton{
+        background-color:transparent;
+        border: transparent;
+    }
+    .form{
+        position: absolute;
+        right: 0px;
+        width: 35px;
+    }
+    .child2{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+}

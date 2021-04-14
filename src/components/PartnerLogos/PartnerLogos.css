@@ -1,0 +1,73 @@
+.logoContainer{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.logoHeading{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.logoHeading02{
+    color: rgb(0, 86, 210);
+    text-decoration: underline;
+}
+
+.partnerLogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0px 108px;
+    padding: 0px 10px;
+    min-height: 85px;
+}
+.illinois{
+    max-height: 32px;
+    width: 156px;
+    margin:0px 10px 30px;
+}
+.duke{
+    max-height: 32px;
+    width: 93px;
+    margin:0px 10px 30px;
+}
+.google{
+    height: 37px;
+    width: 108px;
+    margin:0px 10px 30px;
+}
+.umich{
+    height: 55px;
+    width: 52px;
+    margin:0px 10px 30px;
+}
+.ibm{
+    height: 32px;
+    width: 80px;
+    margin:0px 10px 30px;
+}
+.imperial{
+    width: 134px;
+    height: 35px;
+    margin:0px 10px 30px;
+}
+.stanford{
+    width: 126px;
+    height: 27px;
+    margin:0px 10px 30px;
+}
+.penn{
+    width: 112px;
+    height: 37px;
+    margin:0px 10px 30px;
+}
